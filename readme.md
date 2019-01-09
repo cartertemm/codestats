@@ -72,7 +72,13 @@ After installation, and assuming environment variables are set correctly, you sh
 
 ## contributing
 
-If you find an issue or would like to contribute, use the issue tracker or get in contact. I'd prefer issues be opened before pull requests, however.
+If you find a problem or would like to contribute, use the issue tracker or get in contact. I'd prefer issues be opened before pull requests, however.
+
+## Todo
+
+* implement the possibility for modular use.
+* add support for detection based on more than file extensions alone, possibly with linguist. This is a current issue, e.g. Objective C and C/C++ header files share a common extension.
+* make module distributable on PYPI, complete with CLI script
 
 ## Contact
 
