@@ -1,6 +1,6 @@
 # CodeStats
 
-Provides in-depth information about the makeup of a project, regardless of language used.
+Provides in-depth information about the makeup of a project regardless of language used.
 
 ## What?
 
@@ -67,7 +67,7 @@ average file size without indents: 10.5KB, 10731.54b
 
 ## Installing
 
-You must have a copy of [python 3](https://www.python.org/downloads)
+You must have a copy of [python 3 or later](https://www.python.org/downloads)
 After installation, and assuming environment variables are set correctly, you should be able to call from commandline.
 
 ## contributing
@@ -77,8 +77,9 @@ If you find a problem or would like to contribute, use the issue tracker or get 
 ## Todo
 
 * implement the possibility for modular use.
-* add support for detection based on more than file extensions alone, possibly with linguist. This is a current issue, e.g. Objective C and C/C++ header files share a common extension.
+* Add support for detection based on more than file extensions alone, possibly with linguist. This is a current issue, e.g. Objective C and C/C++ header files share a common extension.
 * make module distributable on PYPI, complete with CLI script
+* more stats of course
 
 ## Contact
 
