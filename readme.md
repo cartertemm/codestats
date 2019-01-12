@@ -1,10 +1,10 @@
-# CodeStats
+CodeStats
 
 Provides in-depth information about the makeup of a project regardless of language used.
 
 ## What?
 
-Ever wonder how much code is contained in your project? Maybe in total or minus whitespace, proceeding indents, etc? CodeStats provides an easy way of finding this information plus a lot more. Right now the following is supported, hopefully more coming later.
+Ever wonder how much code is contained in your project? Maybe in total or minus whitespace, proceeding indents, etc? CodeStats provides an easy way of finding this information. Right now the following is supported, hopefully more coming later.
 
 * percentages per language. e.g. python 50.2%, C++ 30.3%, C# 19.5%
 * Total Lines
@@ -23,6 +23,7 @@ Ever wonder how much code is contained in your project? Maybe in total or minus 
 
 ## Usage
 
+```
 usage: stats.py [-h] [-e EXCLUDES] [-ef EXCLUDE_FILE] [-v] [-dr] dir
 
 Tool to provide detailed summaries of code in a project.
@@ -40,7 +41,7 @@ optional arguments:
   -v, --verbose         give args.verbose/more detailed output
   -dr, --disable-rundown
                         excludes an individual rundown of every processed file
-
+```
 
 For example, running on the [NVDA](http://github.com/nvaccess/nvda) source tree excluding individual file information
 
@@ -48,27 +49,49 @@ For example, running on the [NVDA](http://github.com/nvaccess/nvda) source tree 
 py -3 stats.py nvda/source --disable-rundown
 ```
 
+
 297 files accounted for, with 0 exclusions encountered
+
 python: 99.7%
+
 HTML: 0.03%
+
 windows registry entry: 0.02%
+
 INI: 0.25%
+
 total lines: 84644
+
 number of blank lines: 8106
+
 total lines that have content: 76538
+
 average number of characters per line: 42.62
+
 average number of lines per file: 285.0
+
 total number of proceeding spaces/indents: 167178, making up a total of 163.3KB
+
 average indents per file: 562.89
+
 total size: 3.2MB, 3354444b
+
 total size without indents: 3.0MB, 3187266b
+
 average file size: 11.0KB, 11294.42b
+
 average file size without indents: 10.5KB, 10731.54b
+
 
 ## Installing
 
 You must have a copy of [python 3 or later](https://www.python.org/downloads)
+
 After installation, and assuming environment variables are set correctly, you should be able to call from commandline.
+
+```
+py -3 stats.py
+```
 
 ## contributing
 
@@ -84,4 +107,5 @@ If you find a problem or would like to contribute, use the issue tracker or get 
 ## Contact
 
 twitter (probably most efficient): cartertemm
+
 email: crtbraille@gmail.com
