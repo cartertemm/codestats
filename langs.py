@@ -33,6 +33,8 @@ language("batchfile", [".bat", ".cmd"])
 language("BGT", [".bgt"])
 language("brainfuck", [".bf", ".b"])
 language("C/C++", [".c", ".cpp", ".c++", ".cc", ".cxx", ".h", ".hpp", ".h++", ".hxx"])
+#thanks Ty
+language("C# (CSharp)", [".cs", ".csx", ".cake"])
 #language("chuck", (".ck"))
 language("CSS", [".css"])
 language("CSV", [".csv"])
